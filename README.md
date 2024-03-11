@@ -9,19 +9,17 @@ To write a program to implement the the Logistic Regression Model to Predict the
 
 ## Algorithm
 1. Data Preprocessing: Cleanse data, handle missing values, encode categorical variables.
-2.Model Training: Fit logistic regression model on preprocessed data.
-3.Model Evaluation: Assess model performance using metrics like accuracy, precision, recall.
-4.Prediction: Predict placement status for new student data using trained model.
+2. Model Training: Fit logistic regression model on preprocessed data.
+3. Model Evaluation: Assess model performance using metrics like accuracy, precision, recall.
+4. Prediction: Predict placement status for new student data using trained model.
 
 ## Program:
-```
+```python3
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: VARSHINI S A
-RegisterNumber:  212222100059
-*/
-```
-```
+Developed by: VARSHINI
+RegisterNumber: 212222100059
+
 import pandas as pd
 data=pd.read_csv("C:/Users/admin/OneDrive/Documents/INTRO TO ML/Placement_Data.csv")
 data.head()
@@ -70,14 +68,16 @@ classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
 
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
+*/
 ```
 
 ## Output:
-![ml1](https://github.com/VARSHINI22009118/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/a5c3d163-7f8d-45e4-b651-9ff2adccdf5f)
-![ml2](https://github.com/VARSHINI22009118/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/c6dd32d6-c425-4403-bc3e-00356d3c3205)
-![ml3](https://github.com/VARSHINI22009118/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/16c18f32-7e2c-4c07-b0ac-eb99936b8806)
-![ml4](https://github.com/VARSHINI22009118/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/cabbda4f-c5e6-4c86-9df2-80bfb22df2dd)
-![ml5](https://github.com/VARSHINI22009118/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/eb61ba81-2e6b-4db0-8709-853111d38fea)
-![ml6](https://github.com/VARSHINI22009118/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/5c672ced-749a-433c-8ceb-b087fcfabf4e)
+![ml1](https://github.com/anu-varshini11/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/a5c3d163-7f8d-45e4-b651-9ff2adccdf5f)
+![ml2](https://github.com/anu-varshini11/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/c6dd32d6-c425-4403-bc3e-00356d3c3205)
+![ml3](https://github.com/anu-varshini11/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/16c18f32-7e2c-4c07-b0ac-eb99936b8806)
+![ml4](https://github.com/anu-varshini11/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/cabbda4f-c5e6-4c86-9df2-80bfb22df2dd)
+![ml5](https://github.com/anu-varshini11/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/eb61ba81-2e6b-4db0-8709-853111d38fea)
+![ml6](https://github.com/anu-varshini11/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/138969827/5c672ced-749a-433c-8ceb-b087fcfabf4e)
+
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
