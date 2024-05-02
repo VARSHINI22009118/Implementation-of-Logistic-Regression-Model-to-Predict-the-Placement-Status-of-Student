@@ -22,12 +22,15 @@ STEP 5. Prediction: Predict placement status for new student data using trained 
 STEP 6.End the program.
 
 ## Program:
-```python3
-/*
+```
+
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: VARSHINI
 RegisterNumber: 212222100059
 
+```
+
+```
 import pandas as pd
 data=pd.read_csv("C:/Users/admin/OneDrive/Documents/INTRO TO ML/Placement_Data.csv")
 data.head()
@@ -76,7 +79,7 @@ classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
 
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
-*/
+
 ```
 
 ## Output:
